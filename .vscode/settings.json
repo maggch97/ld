@@ -47,6 +47,7 @@
         "map": "cpp",
         "algorithm": "cpp",
         "set": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "stack": "cpp"
     }
 }
