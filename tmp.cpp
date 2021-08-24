@@ -20,9 +20,10 @@ public:
         // push 向栈顶增加一个元素
         // pop 从栈顶删除一个元素
         // top 取栈顶元素的值
+        
         for (auto c : s)
         {
-            if (l2r[c] != 0)
+            if (c=='(' || c == '[' || c=='{')
             {
                 // c 是左括号
                 stk.push(c);
